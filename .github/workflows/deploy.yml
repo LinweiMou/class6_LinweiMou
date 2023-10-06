@@ -26,6 +26,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install mkdocs-material
           pip install mkdocstrings
+          pip install mkdocs
+          pip install mkdocstrings-python
 
       - name: Deploy
         run: |
