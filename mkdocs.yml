@@ -1,0 +1,13 @@
+site_name: class 4 homework
+site_url: https://example.com/
+nav:
+  - Home: index.md
+  - Example functions: example.md
+  - tutorials (area_of_rectangle): tutorials.md
+  - how-to-guides (area_of_rectangle): how-to-guides.md
+  - reference (area_of_rectangle): reference.md
+  - explanation (area_of_rectangle): explanation.md  
+theme:
+ name: "material"
+plugins:
+ - mkdocstrings
